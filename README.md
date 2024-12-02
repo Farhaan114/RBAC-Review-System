@@ -80,32 +80,56 @@ Copy code
 nodemon index.js
 ```
 
-## Screenshots
+## Screenshots\
+
+- User Registration
+ ![image](https://github.com/user-attachments/assets/6d576bb9-4ffe-4547-8c3c-e2da4905372e)
+
+
 - User Login
+  ![image](https://github.com/user-attachments/assets/8c23ba2f-3bb0-4afa-82b5-0e3fd5cde5bb)
+
+  
+- Update user roles
+  ![image](https://github.com/user-attachments/assets/c91e6940-b152-4b81-be69-4af6cee5e464)
 
 
 - Products Listing
+  ![image](https://github.com/user-attachments/assets/a7bf9aa2-d4ae-4df1-bdd4-cd1cfd3697f6)
 
-
-- Search Filter
 
 
 - View Product Reviews
+  ![image](https://github.com/user-attachments/assets/624250fd-d113-429d-8e6b-f7e9531871df)
+
 
 
 - Submit a Review
+![image](https://github.com/user-attachments/assets/6c886528-825a-4f28-86f3-f25820ed2caa)
 
 
 - User Can View Their Reviews
+![image](https://github.com/user-attachments/assets/d2468d6f-3806-4190-a7d8-a424b2153edb)
 
 
 - Edit a Review
+![image](https://github.com/user-attachments/assets/7a4bc9c6-342d-4ea9-bfa0-660ad8ab0eca)
 
 
 ## Admin Login and Review Viewing
+![image](https://github.com/user-attachments/assets/f27df7d1-98dd-43dd-a639-326c576418aa)
+
+## Admin Dashboard available only for the admin
+![image](https://github.com/user-attachments/assets/c747a153-b40a-4901-b839-3d81aa660f9a)
+- Change roles:
+  ![image](https://github.com/user-attachments/assets/6971b817-efe1-402d-986b-c5ca75e63ac2)
+- View Moderators:
+  ![image](https://github.com/user-attachments/assets/68798cbe-5f00-4197-b62d-e9599501f254)
+
 
 
 ## Admin or Moderator Deleting an Inappropriate Review
+![image](https://github.com/user-attachments/assets/6575ae12-ee86-4660-bf7f-887b117ce91b)
 
 
 
