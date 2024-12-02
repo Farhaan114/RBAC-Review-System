@@ -45,13 +45,13 @@ Before you begin, ensure you have the following installed:
 ## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/User-Review-Functionality.git
+git clone https://github.com/Farhaan114/RBAC-Review-System.git
 cd User-Review-Functionality
 ```
 ## Install dependencies on the frontend and backend
 
 ```bash
-Copy code
+
 npm install
 ```
 ## Configure Environment Variables
@@ -71,11 +71,11 @@ npm run dev
 ```
 ### Start the Backend Server
 ```
-bash
+
 Copy code
 npm start
 or
-bash
+
 Copy code
 nodemon index.js
 ```
