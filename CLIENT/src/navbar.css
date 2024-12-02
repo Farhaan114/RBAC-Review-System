@@ -1,0 +1,137 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40; /* Dark background for a sleek look */
+    border-bottom: 3px solid #007bff; /* Adds a blue border at the bottom */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    position: fixed; /* Fixed at the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Align left and right sections */
+    align-items: center;
+    padding: 10px 20px; /* Padding inside the navbar */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin-right: 30px; /* Space between the brand and menu */
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff; /* Blue hover effect for brand */
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 20px; /* Space between menu items */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ccc;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px; /* Rounded corners on hover */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #0056b3; /* Darker blue for active link */
+    border-radius: 4px;
+  }
+  
+  .navbar-nav .nav-item button {
+    color: #ccc;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item button:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-text {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px; /* Space between text and logout button */
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 12px;
+    }
+  
+    .navbar-text {
+      margin-top: 10px;
+    }
+  }
+  
+  .navbar-brand:hover {
+    color: #00bcd4; /* Lighter cyan for hover effect */
+  }
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #007bff;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  

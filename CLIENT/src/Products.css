@@ -1,0 +1,104 @@
+/* Container for the products page */
+.products-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Header section with search filter */
+.products-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Glass effect */
+.glass-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Title styling */
+.products-title {
+  font-size: 24px;
+  font-weight: bold;
+  color:white;
+  margin-bottom: 10px;
+}
+
+/* Search input styling */
+.products-search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.products-search-input:focus {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid for products */
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 12px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 12px;
+}
+
+/* Individual product card */
+.products-card {
+  flex: 1 1 calc(25% - 15px);
+  max-width: calc(25% - 15px);
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card hover effect */
+.products-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product link styling */
+.products-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.products-link:hover {
+  color: #007bff;
+}

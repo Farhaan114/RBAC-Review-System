@@ -1,0 +1,169 @@
+/* AdminsPage.css */
+
+.admins-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 500px;
+  height: 800px;
+  overflow-y: auto;
+  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.admins-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.admins-table-container {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.2); /* Glass effect */
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); /* Adds blur effect */
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.admins-scrollable-table {
+  max-height: 500px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.admins-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+
+.admins-table th,
+.admins-table td {
+  text-align: left;
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.admins-table th {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.admins-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.admins-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.admins-buttons button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 15px rgba(106, 90, 205, 0.5); /* Default shadow */
+}
+
+.admins-buttons .add-button {
+  background-color: rgba(76, 175, 80, 0.8);
+}
+
+.admins-buttons .add-button:hover {
+  background-color: rgba(76, 175, 80, 1);
+  transform: scale(1.05);
+}
+
+.admins-buttons .delete-button {
+  background-color: rgba(244, 67, 54, 0.8);
+}
+
+.admins-buttons .delete-button:hover {
+  background-color: rgba(244, 67, 54, 1);
+  transform: scale(1.05);
+}
+
+.admins-buttons .edit-button {
+  background-color: rgba(33, 150, 243, 0.8);
+}
+
+.admins-buttons .edit-button:hover {
+  background-color: rgba(33, 150, 243, 1);
+  transform: scale(1.05);
+}
+
+.admins-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  transition: background 0.3s;
+  color: #000;
+}
+
+.admins-input:focus {
+  background: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admins-container {
+      padding: 15px;
+  }
+
+  .admins-title {
+      font-size: 1.8rem;
+  }
+
+  .admins-table th,
+  .admins-table td {
+      font-size: 14px;
+  }
+
+  .admins-buttons button {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admins-container {
+      padding: 10px;
+  }
+
+  .admins-title {
+      font-size: 1.5rem;
+  }
+
+  .admins-table th,
+  .admins-table td {
+      font-size: 12px;
+  }
+
+  .admins-buttons button {
+      font-size: 12px;
+      padding: 6px 12px;
+  }
+}
