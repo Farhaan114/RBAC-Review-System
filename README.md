@@ -72,11 +72,9 @@ npm run dev
 ### Start the Backend Server
 ```
 
-Copy code
 npm start
 or
 
-Copy code
 nodemon index.js
 ```
 
