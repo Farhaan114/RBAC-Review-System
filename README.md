@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/Farhaan114/RBAC-Review-System.git
-cd User-Review-Functionality
+cd RBAC-Review-System
 ```
 ## Install dependencies on the frontend and backend
 
